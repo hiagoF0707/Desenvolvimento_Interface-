@@ -1,0 +1,84 @@
+console.log ("ola turma!") 
+VM2131:1 ola turma!
+undefined
+window.alert ("cuidado com a disprssão") 
+undefined
+consoloe.log ("10+5") 
+VM2316:1 Uncaught ReferenceError: consoloe is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2316:1
+console.log(10+5)
+VM2376:1 15
+undefined
+console.log ("meun nome é")
+VM2453:1 meun nome é
+undefined
+console.log ("meun nome é...")
+VM2461:1 meun nome é...
+undefined
+const nome = "Hiago";
+undefined
+const idade = 20;
+undefined
+nome
+'Hiago'
+idade
+20
+const nome = "figueiredo"
+undefined
+nome
+'figueiredo'
+let pontos = 10;
+undefined
+pontos 
+10
+console.log (typeof"ADS");
+VM2853:1 string
+undefined
+console.log (typeof"45");
+VM2865:1 string
+undefined
+console.log (typeof 50.57);
+VM2890:1 number
+undefined
+console.log (typeof 50.57)
+VM2896:1 number
+undefined
+var1 = 15
+15
+var2 = 20 
+20
+soma = var1 + var2
+35
+var1 = 20 
+20
+var2 = n4;
+VM3068:1 Uncaught ReferenceError: n4 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM3068:1
+var2 = 4
+4
+soma = 20 + 4 
+24
+subtração = 20 - 4 
+16
+divisão = 20 * 4
+80
+n1=4, n2=20, soma n1 + n2, subtração n1 - n2, mult n1 * n2, div n1/n2
+VM3418:1 Uncaught SyntaxError: Unexpected identifier 'n1' (at VM3418:1:19)
+nota1 7 
+VM3442:1 Uncaught SyntaxError: Unexpected number (at VM3442:1:7)
+nota 1 = 7 
+VM3470:1 Uncaught SyntaxError: Unexpected number (at VM3470:1:6)
+n1= 7
+7
+n2= 8
+8
+n3= 9 
+9
+n1 + n2 + n3 
+24
+24/3
+8
+media = (n1 + n2 + n3)/3
+8
